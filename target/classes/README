@@ -1,0 +1,6 @@
+**Execution Example**
+
+[hadoop@namenode ~]$ echo "TEXT"|hadoop jar ./streamcomp-0.0.1-SNAPSHOT.jar org.apache.hadoop.io.compress.GzipCodec | gunzip -
+17/03/16 23:09:19 INFO zlib.ZlibFactory: Successfully loaded & initialized native-zlib library
+17/03/16 23:09:20 INFO compress.CodecPool: Got brand-new compressor [.gz]
+TEXT
